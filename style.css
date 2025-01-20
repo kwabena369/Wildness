@@ -1,0 +1,14 @@
+body{ 
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+      background: linear-gradient(to bottom, red, green, blue);
+    }
+canvas{
+     position: absolute;
+     top: 0%;
+     left: 0%;
+     width: 100vw;
+     height: 100vh;
+
+}
