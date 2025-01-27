@@ -3,12 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ghost</title>
-    <link rel="stylesheet" href="style.css"/>
+    <title>Raven Shooter Game</title>
+    <style>
+        body { 
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+            margin: 0;
+            background: linear-gradient(to bottom, #1a1a1a, #2a2a2a);
+            position: relative;
+        }
+        canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        #canvas2 {
+            opacity: 0;
+        }
+    </style>
 </head>
 <body>
-    
+    <canvas id="canvas2"></canvas>    
     <canvas id="canvas1"></canvas>
+
+    <script src="index.js"></script>
 </body>
-<script src="index.js"></script>
 </html>
